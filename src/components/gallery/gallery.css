@@ -1,0 +1,24 @@
+.g {
+    background-color: rgb(240, 255, 255);
+}
+
+.g-title {
+    color: cornflowerblue;
+    text-align: center;
+    font-weight: 500;
+    padding: 1%;
+}
+
+.g-photos {
+    width: 80%;
+    margin: auto;
+}
+
+@media screen and (max-width: 480px) {
+    .g-photos{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}

@@ -1,0 +1,13 @@
+   .p-img {
+    border: 3px solid rgb(243, 242, 242);
+    width: 32%;
+    height: auto;
+    padding: 0%;
+  }
+  
+  
+  @media screen and (max-width: 480px) {
+    .p-img {
+      width: 80%;
+    }
+  }

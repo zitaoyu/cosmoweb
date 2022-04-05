@@ -13,7 +13,7 @@ const Intro = () => {
                             <div className="i-title-item">A sleepy cat</div>
                             <div className="i-title-item">A annoying cat</div>
                             <div className="i-title-item">A playful cat</div>
-                            <div className="i-title-item">A fluffy cat</div>
+                            <div className="i-title-item">A clingy cat</div>
                             <div className="i-title-item">British shorthair</div>
                         </div>
                     </div>
