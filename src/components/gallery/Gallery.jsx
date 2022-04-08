@@ -35,7 +35,7 @@ class Gallery extends React.Component {
    
         return (
         <div className = "g">
-            <h1 className="g-title"> Recent instagram profile feed</h1>
+            <h1 className="g-title"> My recent instagram posts:</h1>
             <div className="g-photos">
             {items.data.map(item => (
                 <Photo key={item.id} link={item.permalink} img={item.media_url} caption={item.caption}></Photo>

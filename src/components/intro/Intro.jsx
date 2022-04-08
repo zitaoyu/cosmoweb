@@ -20,8 +20,8 @@ const Intro = () => {
                     <div className="i-desc">
                         Welcome to my portfolio website, nice to meet you!
                         I like to get my belly rubbed.
-                        I love to sleep through the morning then annoy my mom at night.
-                        I'm covered with white hair and I have a pair of beautiful blue eyes.
+                        I love to sleep through the morning then annoy my mom at midnight.
+                        I got white hair and a pair of beautiful blue eyes.
                         I hope you enjoy reading my page, meow meow ~
                     </div>
                 </div>

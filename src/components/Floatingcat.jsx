@@ -1,9 +1,7 @@
 import React from "react";
-import CAT from "../img/floatingcat.jpg"
-import CAT2 from "../img/kiss.png"
+import CAT from "../img/floatingcat.png"
 import "./floactingcat.css";
 
-var current = new Date();
 
 class Floatingcat extends React.Component {
 
@@ -17,21 +15,18 @@ class Floatingcat extends React.Component {
     }
 
     render() {
+        /*
+        Unfinished code
+
         if(document.getElementById("cat") != null){
             const cat = document.getElementById("cat");
             cat.style.left = "30%";
-
         }
-        var current = new Date();
-        console.log(current)
+        */
         return (
-            <img id="cat" src={CAT} alt="" className="ontop"></img>
+            <img id="cat" src={CAT} alt="" className="cat"></img>
         );
     }
 }
    
 export default Floatingcat;
-
-<marquee behavior="scroll" direction="up" className="ontop">
-    <img src={CAT2} alt=""></img>
-</marquee>;

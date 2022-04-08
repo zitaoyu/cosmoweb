@@ -1,15 +1,10 @@
-.ontop{
-    -webkit-animation: mover 10s infinite  alternate;
-    animation: mover 10s infinite  alternate;
+.cat {
+    -webkit-animation: mover 12s infinite  alternate;
+    animation: mover 12s infinite  alternate;
     position: fixed;
     z-index: 999;
-    left: 30%;
-}
-
-.background {
-    width: 100vh;
-    height: 100vh;
-    background-color: skyblue;
+    left: 40%;
+    top: -10%;
 }
 
 @-webkit-keyframes mover {
@@ -19,4 +14,10 @@
 @keyframes mover {
     0% { transform: translateY(0); }
     100% { transform: translateY(+100vh); }
+}
+
+@media screen and (max-width: 480px) {
+    .cat {
+        left: 85%;
+    }
 }
