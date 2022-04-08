@@ -17,7 +17,7 @@ class Gallery extends React.Component {
     // ComponentDidMount is used to
     // execute the code 
     componentDidMount() {
-        fetch("https://v1.nocodeapi.com/zitaoy/instagram/urxjjMPcxxVnWNgU")
+        fetch("https://v1.nocodeapi.com/zitaoy/instagram/ttAXmddtSzUstNwF")
             .then((res) => res.json())
             .then((json) => {
                 this.setState({
@@ -38,7 +38,7 @@ class Gallery extends React.Component {
             <h1 className="g-title"> Recent instagram profile feed</h1>
             <div className="g-photos">
             {items.data.map(item => (
-                <Photo link={item.permalink} img={item.media_url} caption={item.caption}></Photo>
+                <Photo key={item.id} link={item.permalink} img={item.media_url} caption={item.caption}></Photo>
             ))}
             </div>
         </div>

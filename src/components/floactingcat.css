@@ -1,0 +1,22 @@
+.ontop{
+    -webkit-animation: mover 10s infinite  alternate;
+    animation: mover 10s infinite  alternate;
+    position: fixed;
+    z-index: 999;
+    left: 30%;
+}
+
+.background {
+    width: 100vh;
+    height: 100vh;
+    background-color: skyblue;
+}
+
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(+100vh); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(+100vh); }
+}
