@@ -1,6 +1,14 @@
 import "./about.css"
 import sitting from "../../img/sitting.png"
 
+var cosmoBirthday = new Date("08/29/2020");
+
+function calculateAge(birthday) {
+    var ageDifMs = Date.now() - birthday;
+    var ageDate = new Date(ageDifMs);
+    return Math.abs(ageDate.getUTCFullYear() - 1970);
+}
+
 const About = () => {
     return (
         <div className="a">
@@ -12,13 +20,14 @@ const About = () => {
             </div>
             <div className="a-right">
                 <h1 className="a-title">About me</h1>
-                <p className="a-sub">
-                    I was born in Ukraine, and I'm 1.5 years old. 
-                    I've moved many times when I was little, so I'm scared of moving.
-                    I love wet food, but I would have stinky poop.
-                    I love playing with my shadow.
-                    I'm super clingy and I love to follow people.
-                </p>
+                <ul className="a-sub">
+                <li><b>Name:</b> Cosmo</li>
+                <li><b>Breed:</b> British Shorthair</li>
+                <li><b>Age:</b> {calculateAge(cosmoBirthday)}</li>
+                <li><b>Birthplace:</b> Ukraine</li>
+                <li><b>Favorite food:</b> chicken</li>
+                <li><b>Skills:</b> making biscuits, soccer</li>
+                </ul>
                 <p className="a-desc">
                     Meow meow meow~
                 </p>
