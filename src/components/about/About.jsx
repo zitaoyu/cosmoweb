@@ -20,13 +20,16 @@ const About = () => {
             </div>
             <div className="a-right">
                 <h1 className="a-title">About me</h1>
+                <p className="a-sub"> I'm a very brave boy, I once hunt down a white snake under the bed to protect my mommy at night. 
+                She got mad at me in the morning for some reason. Human are stupid. Meoooow~</p>
                 <ul className="a-sub">
                 <li><b>Name:</b> Cosmo</li>
                 <li><b>Breed:</b> British Shorthair</li>
-                <li><b>Age:</b> {calculateAge(cosmoBirthday)}</li>
+                <li><b>Age:</b> {calculateAge(cosmoBirthday)} years old</li>
                 <li><b>Birthplace:</b> Ukraine</li>
-                <li><b>Favorite food:</b> chicken</li>
-                <li><b>Skills:</b> making biscuits, soccer</li>
+                <li><b>Favorite food:</b> freeze dried chicken</li>
+                <li><b>Favorite toy:</b> Supreme bouncy ball</li>
+                <li><b>Skills:</b> making biscuits, soccer, and bullying things that are smaller than me</li>
                 </ul>
                 <p className="a-desc">
                     Meow meow meow~

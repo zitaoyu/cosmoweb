@@ -1,5 +1,5 @@
 import React from "react";
-import CAT from "../img/floatingcat.png"
+import CAT from "../img/floatingcat2.png"
 import "./floactingcat.css";
 
 
