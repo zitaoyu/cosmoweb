@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/cosmoweb/static/css/main.a85f84ff.chunk.css",
+    "main.css": "/cosmoweb/static/css/main.2f8122ce.chunk.css",
     "main.js": "/cosmoweb/static/js/main.a5f8c802.chunk.js",
     "main.js.map": "/cosmoweb/static/js/main.a5f8c802.chunk.js.map",
     "runtime-main.js": "/cosmoweb/static/js/runtime-main.4f0eb364.js",
@@ -8,7 +8,7 @@
     "static/js/2.edfda038.chunk.js": "/cosmoweb/static/js/2.edfda038.chunk.js",
     "static/js/2.edfda038.chunk.js.map": "/cosmoweb/static/js/2.edfda038.chunk.js.map",
     "index.html": "/cosmoweb/index.html",
-    "static/css/main.a85f84ff.chunk.css.map": "/cosmoweb/static/css/main.a85f84ff.chunk.css.map",
+    "static/css/main.2f8122ce.chunk.css.map": "/cosmoweb/static/css/main.2f8122ce.chunk.css.map",
     "static/js/2.edfda038.chunk.js.LICENSE.txt": "/cosmoweb/static/js/2.edfda038.chunk.js.LICENSE.txt",
     "static/media/face_big.0a1da2a3.png": "/cosmoweb/static/media/face_big.0a1da2a3.png",
     "static/media/sitting.f4a86829.png": "/cosmoweb/static/media/sitting.f4a86829.png"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.4f0eb364.js",
     "static/js/2.edfda038.chunk.js",
-    "static/css/main.a85f84ff.chunk.css",
+    "static/css/main.2f8122ce.chunk.css",
     "static/js/main.a5f8c802.chunk.js"
   ]
 }
