@@ -41,18 +41,23 @@
 
 .a-title {
     font-weight: 400;
-  }
+}
   
-  .a-sub {
+.a-sub {
     margin: 20px 0px;
-  }
+}
+
+.a-sub-2 {
+    margin: 20px 0px;
+}
   
-  .a-desc{
-      font-weight: 300;
-  }
+.a-desc{
+    font-weight: 300;
+}
 
 @media screen and (max-width: 480px) {
     .a{
+        height: 110vh;
         flex-direction: column;
         text-align: center;
         margin-top: 50px;
@@ -63,8 +68,8 @@
     }
 
     .a-card {
-        height: 30vh;
-        width: 30vh;
+        height: 20vh;
+        width: 20vh;
     }
 
     .a-card.bg{
@@ -73,5 +78,9 @@
 
     .a-right{
         padding: 20px;
+    }
+
+    .a-sub-2 {
+        text-align: left;
     }
 }

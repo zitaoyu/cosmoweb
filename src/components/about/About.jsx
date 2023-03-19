@@ -36,16 +36,12 @@ const About = () => {
             <div className="a-right">
                 <h1 className="a-title">About me</h1>
                 <p className="a-sub"> 
-                Meow, I have white hair and a pair of blue eyes, and I love belly rubs and take small naps during the day. 
-                During midnight, I become a monster hunter, hunting down things that threaten my parents.
+                Meow! I'm a kitty with white fur and pretty blue eyes. I like it when you rub my belly and take small naps during the day. But when it's really dark outside, I turn into a brave monster hunter! I protect my parents from scary things that try to harm them.
                 </p>
                 <p className="a-sub"> 
-                I once hunt down a white snake under the bed to protect my mommy at night. 
-                She got mad at me in the morning for some reason, saying something about iphone charger. 
-                Human are so stupid, they just eat and sleep and don't know that they are in great danger. 
-                Must be nice to be a human, meoooow~
+                I once saved my mommy from a scary white snake under the bed! But the next morning, she got mad at me for some reason and was talking about an iphone charger. Humans can be silly sometimes, meow~
                 </p>
-                <ul className="a-sub">
+                <ul className="a-sub-2">
                 <li><b>Name:</b> Cosmo</li>
                 <li><b>Breed:</b> British Shorthair</li>
                 <li><b>Age:</b> {calculateAge(cosmoBirthday)} years old</li>

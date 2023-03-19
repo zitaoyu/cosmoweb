@@ -17,9 +17,7 @@ const Intro = () => {
                         </div>
                     </div>
                     <div className="i-desc">
-                        Welcome to my portfolio website, nice to meet you! 
-                        In this page, you can learn more about me and view very cool pictures of me.
-                        I hope you enjoy reading my page, and if you like... drop a follow to instagram, meow meow ~
+                    Hi there! Welcome to my website where you can learn more about me and see some really cool pictures of me too! I hope you like my page and if you do, you can follow me on Instagram too! Meow meow~
                     </div>
                 </div>
             </div>
