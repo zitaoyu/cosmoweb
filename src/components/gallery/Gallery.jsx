@@ -29,7 +29,6 @@ class Gallery extends React.Component {
 
     render() {
         const { DataisLoaded, items } = this.state;
-        console.log(items)
         if (!DataisLoaded) return <div>
             <h1 className="g-title"> Pleses wait some time.... </h1> </div> ;
    
