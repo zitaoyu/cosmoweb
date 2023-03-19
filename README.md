@@ -1,3 +1,3 @@
-Link to website: https://zitaoyu.github.io/CosmoWeb/
+Link to website: https://zitaoyu.github.io/cosmoweb/
 
 Deploy: npm run deploy
