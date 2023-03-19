@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/cosmoweb_sourcecode/static/css/main.852ddc53.chunk.css",
-    "main.js": "/cosmoweb_sourcecode/static/js/main.723637f3.chunk.js",
-    "main.js.map": "/cosmoweb_sourcecode/static/js/main.723637f3.chunk.js.map",
-    "runtime-main.js": "/cosmoweb_sourcecode/static/js/runtime-main.54758cda.js",
-    "runtime-main.js.map": "/cosmoweb_sourcecode/static/js/runtime-main.54758cda.js.map",
-    "static/js/2.edfda038.chunk.js": "/cosmoweb_sourcecode/static/js/2.edfda038.chunk.js",
-    "static/js/2.edfda038.chunk.js.map": "/cosmoweb_sourcecode/static/js/2.edfda038.chunk.js.map",
-    "index.html": "/cosmoweb_sourcecode/index.html",
-    "static/css/main.852ddc53.chunk.css.map": "/cosmoweb_sourcecode/static/css/main.852ddc53.chunk.css.map",
-    "static/js/2.edfda038.chunk.js.LICENSE.txt": "/cosmoweb_sourcecode/static/js/2.edfda038.chunk.js.LICENSE.txt",
-    "static/media/face_big.0a1da2a3.png": "/cosmoweb_sourcecode/static/media/face_big.0a1da2a3.png",
-    "static/media/sitting.f4a86829.png": "/cosmoweb_sourcecode/static/media/sitting.f4a86829.png"
+    "main.css": "/cosmoweb/static/css/main.852ddc53.chunk.css",
+    "main.js": "/cosmoweb/static/js/main.723637f3.chunk.js",
+    "main.js.map": "/cosmoweb/static/js/main.723637f3.chunk.js.map",
+    "runtime-main.js": "/cosmoweb/static/js/runtime-main.4f0eb364.js",
+    "runtime-main.js.map": "/cosmoweb/static/js/runtime-main.4f0eb364.js.map",
+    "static/js/2.edfda038.chunk.js": "/cosmoweb/static/js/2.edfda038.chunk.js",
+    "static/js/2.edfda038.chunk.js.map": "/cosmoweb/static/js/2.edfda038.chunk.js.map",
+    "index.html": "/cosmoweb/index.html",
+    "static/css/main.852ddc53.chunk.css.map": "/cosmoweb/static/css/main.852ddc53.chunk.css.map",
+    "static/js/2.edfda038.chunk.js.LICENSE.txt": "/cosmoweb/static/js/2.edfda038.chunk.js.LICENSE.txt",
+    "static/media/face_big.0a1da2a3.png": "/cosmoweb/static/media/face_big.0a1da2a3.png",
+    "static/media/sitting.f4a86829.png": "/cosmoweb/static/media/sitting.f4a86829.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.54758cda.js",
+    "static/js/runtime-main.4f0eb364.js",
     "static/js/2.edfda038.chunk.js",
     "static/css/main.852ddc53.chunk.css",
     "static/js/main.723637f3.chunk.js"
