@@ -9,6 +9,21 @@ function calculateAge(birthday) {
     return Math.abs(ageDate.getUTCFullYear() - 1970);
 }
 
+function getImageUrls(){
+    const imageUrls = []
+
+    fetch("https://v1.nocodeapi.com/zitaoy/instagram/ttAXmddtSzUstNwF")
+    .then((res) => res.json())
+    .then((json) => {
+        json.data.map(item => {
+            if (item.media_type === "IMAGE") {
+                imageUrls.push(item.media_url);
+            }
+        });
+    })
+    return imageUrls;
+}
+
 const About = () => {
     return (
         <div className="a">
@@ -20,8 +35,16 @@ const About = () => {
             </div>
             <div className="a-right">
                 <h1 className="a-title">About me</h1>
-                <p className="a-sub"> I'm a very brave boy, I once hunt down a white snake under the bed to protect my mommy at night. 
-                She got mad at me in the morning for some reason. Human are stupid. Meoooow~</p>
+                <p className="a-sub"> 
+                Meow, I have white hair and a pair of blue eyes, and I love belly rubs and take small naps during the day. 
+                During midnight, I become a monster hunter, hunting down things that threaten my parents.
+                </p>
+                <p className="a-sub"> 
+                I once hunt down a white snake under the bed to protect my mommy at night. 
+                She got mad at me in the morning for some reason, saying something about iphone charger. 
+                Human are so stupid, they just eat and sleep and don't know that they are in great danger. 
+                Must be nice to be a human, meoooow~
+                </p>
                 <ul className="a-sub">
                 <li><b>Name:</b> Cosmo</li>
                 <li><b>Breed:</b> British Shorthair</li>
@@ -29,7 +52,7 @@ const About = () => {
                 <li><b>Birthplace:</b> Ukraine</li>
                 <li><b>Favorite food:</b> freeze dried chicken</li>
                 <li><b>Favorite toy:</b> Supreme bouncy ball</li>
-                <li><b>Skills:</b> making biscuits, soccer, and bullying things that are smaller than me</li>
+                <li><b>Skills:</b> making biscuits, soccer, and hunting white snakes</li>
                 </ul>
                 <p className="a-desc">
                     Meow meow meow~

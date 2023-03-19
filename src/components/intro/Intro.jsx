@@ -10,19 +10,16 @@ const Intro = () => {
                     <h1 className="i-name">Cosmo</h1>
                     <div className="i-title">
                         <div className="i-title-wrapper">
-                            <div className="i-title-item">A sleepy cat</div>
-                            <div className="i-title-item">A annoying cat</div>
-                            <div className="i-title-item">A playful cat</div>
-                            <div className="i-title-item">A clingy cat</div>
-                            <div className="i-title-item">British shorthair</div>
+                            <div className="i-title-item">British Shorthair</div>
+                            <div className="i-title-item">Biscuit Maker</div>
+                            <div className="i-title-item">Plastic Hunter</div>
+                            <div className="i-title-item">Shoe Scratcher</div>
                         </div>
                     </div>
                     <div className="i-desc">
-                        Welcome to my portfolio website, nice to meet you!
-                        I like to get my belly rubbed.
-                        I love to sleep through the morning then annoy my mom at midnight.
-                        I got white hair and a pair of beautiful blue eyes.
-                        I hope you enjoy reading my page, meow meow ~
+                        Welcome to my portfolio website, nice to meet you! 
+                        In this page, you can learn more about me and view very cool pictures of me.
+                        I hope you enjoy reading my page, and if you like... drop a follow to instagram, meow meow ~
                     </div>
                 </div>
             </div>
