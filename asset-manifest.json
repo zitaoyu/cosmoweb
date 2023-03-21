@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/cosmoweb/static/css/main.2f8122ce.chunk.css",
-    "main.js": "/cosmoweb/static/js/main.a5f8c802.chunk.js",
-    "main.js.map": "/cosmoweb/static/js/main.a5f8c802.chunk.js.map",
+    "main.js": "/cosmoweb/static/js/main.988c661f.chunk.js",
+    "main.js.map": "/cosmoweb/static/js/main.988c661f.chunk.js.map",
     "runtime-main.js": "/cosmoweb/static/js/runtime-main.4f0eb364.js",
     "runtime-main.js.map": "/cosmoweb/static/js/runtime-main.4f0eb364.js.map",
     "static/js/2.edfda038.chunk.js": "/cosmoweb/static/js/2.edfda038.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.4f0eb364.js",
     "static/js/2.edfda038.chunk.js",
     "static/css/main.2f8122ce.chunk.css",
-    "static/js/main.a5f8c802.chunk.js"
+    "static/js/main.988c661f.chunk.js"
   ]
 }
